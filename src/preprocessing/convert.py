@@ -2,12 +2,12 @@ import csv
 from glob import glob
 import re
 
-FILES = glob("/scratch/ajr619/fml/methylation/DNA_Methylation/JHU_USC__HumanMethylation450/Level_3/*.sorted")
+FILES = glob("/scratch/ajr619/fml/methylation/liver/Level_3/*.sorted")
 FILES.sort()
 
-OUT_FILE = '/scratch/ajr619/fml/methylation/DNA_Methylation/JHU_USC__HumanMethylation450/Level_3/data.csv'
+OUT_FILE = '/scratch/ajr619/fml/methylation/liver/Level_3/data.csv'
 
-CANCER_TYPE = 1
+CANCER_TYPE = 2 
 
 output_writer = open(OUT_FILE, 'a')
 
