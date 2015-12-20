@@ -1,0 +1,18 @@
+
+New python executable in .venv/bin/python
+Installing setuptools, pip...done.
+/home/ac5901/workspace/Pancreatic-carcinoma-classifier/src/hpc_jobs/.venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:79: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+You are using pip version 6.1.1, however version 7.1.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+Traceback (most recent call last):
+  File "pipeline/svml_cancer_type.py", line 4, in <module>
+    from sklearn import svm
+ImportError: No module named sklearn
+
+
+
+
+
+
