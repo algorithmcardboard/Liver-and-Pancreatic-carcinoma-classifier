@@ -1,0 +1,55 @@
+import time
+import csv
+import numpy as np
+from sklearn import svm
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import Pipeline
+from sklearn.cross_validation import train_test_split
+from sklearn.grid_search import GridSearchCV
+
+X=np.load('/scratch/ac5901/output_file.npy')
+Y=X[:,:3]
+X=X[:,3:]
+
+RS=np.random.RandomState(9)
+perm=RS.permutation(625)
+
+Y=Y[perm]
+X=X[perm]
+
+X_train, X_test, Y_train1, Y_test1 = train_test_split(X, Y[:,1], test_size=0.15, random_state=30)
+
+pipe=Pipeline([('pca',PCA()), ('scaled',StandardScaler()), ('svm_linear',svm.SVC(kernel='linear',C=1))])
+
+cval=[2**-5, 2**-4, 2**-3, 2**-2, 2**-1, 2**0, 2**1, 2**2, 2**2, 2**3, 2**4, 2**5]
+
+pca_val=[600,1000]
+
+gs=GridSearchCV(pipe, dict(pca__n_components=pca_val, svm_linear__C=cval), n_jobs=12, verbose=100)
+gs.fit(X_train, Y_train1)
+
+score=gs.score(X_test, Y_test1)
+
+print score
+print gs.best_score_
+print gs.best_estimator_
+print gs.best_params_
+
+outfile="grid_search_scores_{0}.out".format(int(time.time()))
+
+with open(outfile, "w") as scoreFile:
+    writer = csv.writer(scoreFile, delimiter = ",")
+    paramKeys = list(gs.grid_scores_[0].parameters.keys())
+
+    writer.writerow(['mean']+ paramKeys)
+    
+    for i in gs.grid_scores_:
+        output = list()
+        output.append(i.mean_validation_score)
+
+        for k in paramKeys:
+            output.append(i.parameters.get(k))
+
+        writer.writerow(output)
+
