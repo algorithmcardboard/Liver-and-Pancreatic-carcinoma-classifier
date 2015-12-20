@@ -1,5 +1,4 @@
 import time
-from datetime import datetime
 import csv
 import numpy as np
 from sklearn import svm
@@ -8,8 +7,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.cross_validation import train_test_split
 from sklearn.grid_search import GridSearchCV
-
-print "Script start at ", datetime.now().isoformat()
 
 X=np.load('/scratch/ac5901/methylation_norm.npy')
 Y=X[:,:3]
@@ -23,13 +20,13 @@ X=X[perm]
 
 X_train, X_test, Y_train1, Y_test1 = train_test_split(X, Y[:,1], test_size=0.25, random_state=30)
 
-pipe=Pipeline([('pca',PCA()), ('scaled',StandardScaler()), ('svm_linear',svm.SVC(kernel='linear',C=1,class_weight={0:0.45,1:1}))])
+pipe=Pipeline([('pca',PCA()), ('scaled',StandardScaler()), ('svm_gaussian',svm.SVC(kernel='rbf',C=1,gamma=1,class_weight={0:0.45,1:1}))])
 
-cval=[2**-9, 2**-8, 2**-7, 2**-6, 2**-5, 2**-4, 2**-3, 2**-2, 2**-1, 2**0, 2**1, 2**2, 2**3, 2**4, 2**5, 2**6, 2**7, 2**8, 2**9]
+cval=[2**-9,2**-8,2**-7,2**-6,2**-5, 2**-4, 2**-3, 2**-2, 2**-1, 2**0, 2**1, 2**2, 2**3, 2**4, 2**5, 2**6, 2**7, 2**8, 2**9]
+gval=[2**-9,2**-8,2**-7,2**-6,2**-5, 2**-4, 2**-3, 2**-2, 2**-1, 2**0, 2**1, 2**2, 2**3, 2**4, 2**5, 2**6, 2**7, 2**8, 2**9]
+pca_val=[92, 255, 361, 513]
 
-pca_val=[92,255,361,513]
-
-gs=GridSearchCV(pipe, dict(pca__n_components=pca_val, svm_linear__C=cval), cv=10, n_jobs=12, verbose=100)
+gs=GridSearchCV(pipe, dict(pca__n_components=pca_val, svm_gaussian__C=cval, svm_gaussian__gamma=gval), cv=10, n_jobs=12, verbose=100)
 gs.fit(X_train, Y_train1)
 
 score=gs.score(X_test, Y_test1)
@@ -39,14 +36,14 @@ print gs.best_score_
 print gs.best_estimator_
 print gs.best_params_
 
-outfile="grid_search_scores_{0}.out".format(int(time.time()))
+outfile="grid_search_gaussian_cancer_scores_{0}.out".format(int(time.time()))
 
 with open(outfile, "w") as scoreFile:
     writer = csv.writer(scoreFile, delimiter = ",")
     paramKeys = list(gs.grid_scores_[0].parameters.keys())
 
     writer.writerow(['mean']+ paramKeys)
-    
+
     for i in gs.grid_scores_:
         output = list()
         output.append(i.mean_validation_score)
@@ -57,4 +54,3 @@ with open(outfile, "w") as scoreFile:
         writer.writerow(output)
 
 
-print "Script end at ", datetime.now().isoformat()
