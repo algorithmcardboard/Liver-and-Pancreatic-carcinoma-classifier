@@ -1,0 +1,317 @@
+
+New python executable in .venv/bin/python
+Installing setuptools, pip...done.
+/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:79: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+You are using pip version 6.1.1, however version 7.1.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting cycler==0.9.0 (from -r requirements.txt (line 1))
+/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:79: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+  Using cached cycler-0.9.0-py2.py3-none-any.whl
+Collecting matplotlib==1.5.0 (from -r requirements.txt (line 2))
+  Using cached matplotlib-1.5.0.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): numpy==1.10.1 in /share/apps/numpy/1.10.1/intel/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Collecting pandas==0.17.1 (from -r requirements.txt (line 4))
+  Using cached pandas-0.17.1.tar.gz
+Collecting pyparsing==2.0.6 (from -r requirements.txt (line 5))
+  Using cached pyparsing-2.0.6-py2.py3-none-any.whl
+Collecting python-dateutil==2.4.2 (from -r requirements.txt (line 6))
+  Using cached python_dateutil-2.4.2-py2.py3-none-any.whl
+Collecting pytz==2015.7 (from -r requirements.txt (line 7))
+  Using cached pytz-2015.7-py2.py3-none-any.whl
+Collecting scikit-learn==0.17 (from -r requirements.txt (line 8))
+  Using cached scikit-learn-0.17.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): scipy==0.16.0 in /share/apps/scipy/0.16.0/intel/lib/python2.7/site-packages (from -r requirements.txt (line 9))
+Collecting six==1.10.0 (from -r requirements.txt (line 10))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting sklearn==0.0 (from -r requirements.txt (line 11))
+  Using cached sklearn-0.0.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): virtualenv==12.1.1 in /share/apps/virtualenv/12.1.1/lib/python2.7/site-packages/virtualenv-12.1.1-py2.7.egg (from -r requirements.txt (line 12))
+Installing collected packages: six, cycler, python-dateutil, pytz, pyparsing, matplotlib, pandas, scikit-learn, sklearn
+  Running setup.py install for matplotlib
+  Running setup.py install for pandas
+  Running setup.py install for scikit-learn
+  Running setup.py install for sklearn
+Successfully installed cycler-0.9.0 matplotlib-1.5.0 pandas-0.17.1 pyparsing-2.0.6 python-dateutil-2.4.2 pytz-2015.7 scikit-learn-0.17 six-1.10.0 sklearn-0.0
+/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/lib/python2.7/site-packages/sklearn/cross_validation.py:516: Warning: The least populated class in y has only 2 members, which is too few. The minimum number of labels for any class cannot be less than n_folds=10.
+  % (min_labels, self.n_folds)), Warning)
+Fitting 10 folds for each of 1444 candidates, totalling 14440 fits
+Memmaping (shape=(468, 485577), dtype=float64) to new file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(419,), dtype=int64).
+Pickling array (shape=(49,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+[CV] svm_gaussian__C=0.001953125, pca__n_components=92, svm_gaussian__gamma=0.001953125 
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(419,), dtype=int64).
+Pickling array (shape=(49,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=92, svm_gaussian__gamma=0.001953125 
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+[CV] svm_gaussian__C=0.001953125, pca__n_components=92, svm_gaussian__gamma=0.001953125 
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+[CV] svm_gaussian__C=0.001953125, pca__n_components=92, svm_gaussian__gamma=0.001953125 
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=92, svm_gaussian__gamma=0.001953125 
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+[CV] svm_gaussian__C=0.001953125, pca__n_components=92, svm_gaussian__gamma=0.001953125 
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=92, svm_gaussian__gamma=0.001953125 
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+[CV] svm_gaussian__C=0.001953125, pca__n_components=92, svm_gaussian__gamma=0.001953125 
+[CV] svm_gaussian__C=0.001953125, pca__n_components=92, svm_gaussian__gamma=0.001953125 
+[CV] svm_gaussian__C=0.001953125, pca__n_components=92, svm_gaussian__gamma=0.001953125 
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(419,), dtype=int64).
+Pickling array (shape=(49,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(419,), dtype=int64).
+Pickling array (shape=(49,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=92, svm_gaussian__gamma=0.00390625 
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=92, svm_gaussian__gamma=0.00390625 
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=92, svm_gaussian__gamma=0.00390625 
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_9045_47839629472848/9045-61149008-60497472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Traceback (most recent call last):
+  File "pipeline/svmg_tissue_type.py", line 30, in <module>
+    gs.fit(X_train, Y_train2)
+  File "/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/lib/python2.7/site-packages/sklearn/grid_search.py", line 804, in fit
+    return self._fit(X, y, ParameterGrid(self.param_grid))
+  File "/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/lib/python2.7/site-packages/sklearn/grid_search.py", line 553, in _fit
+    for parameters in parameter_iterable
+  File "/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/lib/python2.7/site-packages/sklearn/externals/joblib/parallel.py", line 812, in __call__
+    self.retrieve()
+  File "/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/lib/python2.7/site-packages/sklearn/externals/joblib/parallel.py", line 762, in retrieve
+    raise exception
+sklearn.externals.joblib.my_exceptions.JoblibValueError: JoblibValueError
+___________________________________________________________________________
+Multiprocessing exception:
+...........................................................................
+/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/pipeline/svmg_tissue_type.py in <module>()
+     25 cval=[2**-9,2**-8,2**-7,2**-6,2**-5, 2**-4, 2**-3, 2**-2, 2**-1, 2**0, 2**1, 2**2, 2**3, 2**4, 2**5, 2**6, 2**7, 2**8, 2**9]
+     26 gval=[2**-9,2**-8,2**-7,2**-6,2**-5, 2**-4, 2**-3, 2**-2, 2**-1, 2**0, 2**1, 2**2, 2**3, 2**4, 2**5, 2**6, 2**7, 2**8, 2**9]
+     27 pca_val=[92, 255, 361, 513]
+     28 
+     29 gs=GridSearchCV(pipe, dict(pca__n_components=pca_val, svm_gaussian__C=cval, svm_gaussian__gamma=gval), cv=10, n_jobs=12, verbose=100)
+---> 30 gs.fit(X_train, Y_train2)
+     31 
+     32 score=gs.score(X_test, Y_test2)
+     33 
+     34 print score
+
+...........................................................................
+/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/lib/python2.7/site-packages/sklearn/grid_search.py in fit(self=GridSearchCV(cv=10, error_score='raise',
+       ...2*n_jobs', refit=True, scoring=None, verbose=100), X=array([[ 0.30806776,  0.        ,  0.        , ....  0.57150015,
+         0.94279813,  0.10879365]]), y=array([ 11.,   1.,  11.,   1.,   1.,   1.,   1.,...  1.,
+         1.,   1.,  11.,   1.,   1.,   1.]))
+    799         y : array-like, shape = [n_samples] or [n_samples, n_output], optional
+    800             Target relative to X for classification or regression;
+    801             None for unsupervised learning.
+    802 
+    803         """
+--> 804         return self._fit(X, y, ParameterGrid(self.param_grid))
+        self._fit = <bound method GridSearchCV._fit of GridSearchCV(...*n_jobs', refit=True, scoring=None, verbose=100)>
+        X = array([[ 0.30806776,  0.        ,  0.        , ....  0.57150015,
+         0.94279813,  0.10879365]])
+        y = array([ 11.,   1.,  11.,   1.,   1.,   1.,   1.,...  1.,
+         1.,   1.,  11.,   1.,   1.,   1.])
+        self.param_grid = {'pca__n_components': [92, 255, 361, 513], 'svm_gaussian__C': [0.001953125, 0.00390625, 0.0078125, 0.015625, 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512], 'svm_gaussian__gamma': [0.001953125, 0.00390625, 0.0078125, 0.015625, 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512]}
+    805 
+    806 
+    807 class RandomizedSearchCV(BaseSearchCV):
+    808     """Randomized search on hyper parameters.
+
+...........................................................................
+/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/lib/python2.7/site-packages/sklearn/grid_search.py in _fit(self=GridSearchCV(cv=10, error_score='raise',
+       ...2*n_jobs', refit=True, scoring=None, verbose=100), X=array([[ 0.30806776,  0.        ,  0.        , ....  0.57150015,
+         0.94279813,  0.10879365]]), y=array([ 11.,   1.,  11.,   1.,   1.,   1.,   1.,...  1.,
+         1.,   1.,  11.,   1.,   1.,   1.]), parameter_iterable=<sklearn.grid_search.ParameterGrid object>)
+    548         )(
+    549             delayed(_fit_and_score)(clone(base_estimator), X, y, self.scorer_,
+    550                                     train, test, self.verbose, parameters,
+    551                                     self.fit_params, return_parameters=True,
+    552                                     error_score=self.error_score)
+--> 553                 for parameters in parameter_iterable
+        parameters = undefined
+        parameter_iterable = <sklearn.grid_search.ParameterGrid object>
+    554                 for train, test in cv)
+    555 
+    556         # Out is a list of triplet: score, estimator, n_test_samples
+    557         n_fits = len(out)
+
+...........................................................................
+/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/lib/python2.7/site-packages/sklearn/externals/joblib/parallel.py in __call__(self=Parallel(n_jobs=12), iterable=<generator object <genexpr>>)
+    807             if pre_dispatch == "all" or n_jobs == 1:
+    808                 # The iterable was consumed all at once by the above for loop.
+    809                 # No need to wait for async callbacks to trigger to
+    810                 # consumption.
+    811                 self._iterating = False
+--> 812             self.retrieve()
+        self.retrieve = <bound method Parallel.retrieve of Parallel(n_jobs=12)>
+    813             # Make sure that we get a last message telling us we are done
+    814             elapsed_time = time.time() - self._start_time
+    815             self._print('Done %3i out of %3i | elapsed: %s finished',
+    816                         (len(self._output), len(self._output),
+
+---------------------------------------------------------------------------
+Sub-process traceback:
+---------------------------------------------------------------------------
+ValueError                                         Sun Dec 20 17:42:47 2015
+PID: 9046Python 2.7.6: /scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/bin/python
+...........................................................................
+/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/lib/python2.7/site-packages/sklearn/externals/joblib/parallel.pyc in __call__(self=<sklearn.externals.joblib.parallel.BatchedCalls object>)
+     67     def __init__(self, iterator_slice):
+     68         self.items = list(iterator_slice)
+     69         self._size = len(self.items)
+     70 
+     71     def __call__(self):
+---> 72         return [func(*args, **kwargs) for func, args, kwargs in self.items]
+     73 
+     74     def __len__(self):
+     75         return self._size
+     76 
+
+...........................................................................
+/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/lib/python2.7/site-packages/sklearn/cross_validation.pyc in _fit_and_score(estimator=Pipeline(steps=[('pca', PCA(copy=True, n_compone...e, shrinking=True,
+  tol=0.001, verbose=False))]), X=memmap([[ 0.30806776,  0.        ,  0.        , ...  0.57150015,
+         0.94279813,  0.10879365]]), y=array([ 11.,   1.,  11.,   1.,   1.,   1.,   1.,...  1.,
+         1.,   1.,  11.,   1.,   1.,   1.]), scorer=<function _passthrough_scorer>, train=array([ 38,  48,  50,  51,  52,  53,  54,  55,  ..., 460, 461, 462, 463, 464,
+       465, 466, 467]), test=array([  0,   1,   2,   3,   4,   5,   6,   7,  ...40,  41,  42,  43,  44,  45,  46,  47,  49, 168]), verbose=100, parameters={'pca__n_components': 92, 'svm_gaussian__C': 0.001953125, 'svm_gaussian__gamma': 0.001953125}, fit_params={}, return_train_score=False, return_parameters=True, error_score='raise')
+   1526 
+   1527     try:
+   1528         if y_train is None:
+   1529             estimator.fit(X_train, **fit_params)
+   1530         else:
+-> 1531             estimator.fit(X_train, y_train, **fit_params)
+   1532 
+   1533     except Exception as e:
+   1534         if error_score == 'raise':
+   1535             raise
+
+...........................................................................
+/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/lib/python2.7/site-packages/sklearn/pipeline.pyc in fit(self=Pipeline(steps=[('pca', PCA(copy=True, n_compone...e, shrinking=True,
+  tol=0.001, verbose=False))]), X=memmap([[ 0.42035472,  0.        ,  0.        , ...  0.57150015,
+         0.94279813,  0.10879365]]), y=array([ 11.,  11.,   1.,   1.,   1.,   1.,   1.,...  1.,   1.,   1.,  11.,   1.,   1.,
+         1.]), **fit_params={})
+    160         y : iterable, default=None
+    161             Training targets. Must fulfill label requirements for all steps of
+    162             the pipeline.
+    163         """
+    164         Xt, fit_params = self._pre_transform(X, y, **fit_params)
+--> 165         self.steps[-1][-1].fit(Xt, y, **fit_params)
+    166         return self
+    167 
+    168     def fit_transform(self, X, y=None, **fit_params):
+    169         """Fit all the transforms one after the other and transform the
+
+...........................................................................
+/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/lib/python2.7/site-packages/sklearn/svm/base.pyc in fit(self=SVC(C=0.001953125, cache_size=200, class_weight=...None, shrinking=True,
+  tol=0.001, verbose=False), X=array([[-0.70359289, -0.30071113,  2.11272854, ....  0.05297033,
+        -1.37924173,  0.68831691]]), y=array([ 11.,  11.,   1.,   1.,   1.,   1.,   1.,...  1.,   1.,   1.,  11.,   1.,   1.,
+         1.]), sample_weight=None)
+    146         if sparse and self.kernel == "precomputed":
+    147             raise TypeError("Sparse precomputed kernels are not supported.")
+    148         self._sparse = sparse and not callable(self.kernel)
+    149 
+    150         X = check_array(X, accept_sparse='csr', dtype=np.float64, order='C')
+--> 151         y = self._validate_targets(y)
+    152 
+    153         sample_weight = np.asarray([]
+    154                                    if sample_weight is None
+    155                                    else sample_weight, dtype=np.float64)
+
+...........................................................................
+/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/lib/python2.7/site-packages/sklearn/svm/base.pyc in _validate_targets(self=SVC(C=0.001953125, cache_size=200, class_weight=...None, shrinking=True,
+  tol=0.001, verbose=False), y=array([2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,...0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 2, 0, 0, 0]))
+    512 
+    513     def _validate_targets(self, y):
+    514         y_ = column_or_1d(y, warn=True)
+    515         check_classification_targets(y)
+    516         cls, y = np.unique(y_, return_inverse=True)
+--> 517         self.class_weight_ = compute_class_weight(self.class_weight, cls, y_)
+    518         if len(cls) < 2:
+    519             raise ValueError(
+    520                 "The number of classes has to be greater than one; got %d"
+    521                 % len(cls))
+
+...........................................................................
+/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7312565/.venv/lib/python2.7/site-packages/sklearn/utils/class_weight.pyc in compute_class_weight(class_weight={0: 0.45, 1: 1}, classes=array([  1.,   2.,  11.]), y=array([ 11.,  11.,   1.,   1.,   1.,   1.,   1.,...  1.,   1.,   1.,  11.,   1.,   1.,
+         1.]))
+     71             raise ValueError("class_weight must be dict, 'auto', or None,"
+     72                              " got: %r" % class_weight)
+     73         for c in class_weight:
+     74             i = np.searchsorted(classes, c)
+     75             if i >= len(classes) or classes[i] != c:
+---> 76                 raise ValueError("Class label %d not present." % c)
+     77             else:
+     78                 weight[i] = class_weight[c]
+     79 
+     80     return weight
+
+ValueError: Class label 0 not present.
+___________________________________________________________________________
+
+
+
+
+
+

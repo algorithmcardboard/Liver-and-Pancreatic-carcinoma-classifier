@@ -2,7 +2,7 @@
 #PBS -l nodes=1:ppn=12
 #PBS -l walltime=8:00:00
 #PBS -l mem=164GB
-#PBS -N svm_g_cancer_job
+#PBS -N svm_g_tissue_job
 #PBS -M ac5901@nyu.edu,ajr619@nyu.edu
 #PBS -j oe
 #PBS -m e
@@ -28,4 +28,4 @@ source .venv/bin/activate;
 
 pip install -r requirements.txt
 
-python -u pipeline/svmg_cancer_type.py
+python -u pipeline/svmg_tissue_type.py

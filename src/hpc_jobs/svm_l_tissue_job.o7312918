@@ -1,0 +1,36 @@
+
+New python executable in .venv/bin/python
+Installing setuptools, pip...done.
+You are using pip version 6.1.1, however version 7.1.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting cycler==0.9.0 (from -r requirements.txt (line 1))
+  Using cached cycler-0.9.0-py2.py3-none-any.whl
+Collecting matplotlib==1.5.0 (from -r requirements.txt (line 2))
+  Using cached matplotlib-1.5.0.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): numpy==1.10.1 in /share/apps/numpy/1.10.1/intel/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Collecting pandas==0.17.1 (from -r requirements.txt (line 4))
+  Using cached pandas-0.17.1.tar.gz
+Collecting pyparsing==2.0.6 (from -r requirements.txt (line 5))
+  Using cached pyparsing-2.0.6-py2.py3-none-any.whl
+Collecting python-dateutil==2.4.2 (from -r requirements.txt (line 6))
+  Using cached python_dateutil-2.4.2-py2.py3-none-any.whl
+Collecting pytz==2015.7 (from -r requirements.txt (line 7))
+  Using cached pytz-2015.7-py2.py3-none-any.whl
+Collecting scikit-learn==0.17 (from -r requirements.txt (line 8))
+  Using cached scikit-learn-0.17.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): scipy==0.16.0 in /share/apps/scipy/0.16.0/intel/lib/python2.7/site-packages (from -r requirements.txt (line 9))
+Collecting six==1.10.0 (from -r requirements.txt (line 10))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting sklearn==0.0 (from -r requirements.txt (line 11))
+  Using cached sklearn-0.0.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): virtualenv==12.1.1 in /share/apps/virtualenv/12.1.1/lib/python2.7/site-packages/virtualenv-12.1.1-py2.7.egg (from -r requirements.txt (line 12))
+Installing collected packages: six, cycler, python-dateutil, pytz, pyparsing, matplotlib, pandas, scikit-learn, sklearn
+  Running setup.py install for matplotlib
+  Running setup.py install for pandas
+  Running setup.py install for scikit-learn
+
+
+
+
+
+
