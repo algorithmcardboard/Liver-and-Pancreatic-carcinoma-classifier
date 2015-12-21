@@ -25,7 +25,7 @@ X=X[perm]
 
 X_train, X_test, Y_train1, Y_test1 = train_test_split(X, Y[:,1], test_size=0.25, random_state=30, stratify=Y[:,1])
 
-pipe=Pipeline([('pca',PCA()), ('scaled',StandardScaler()), ('svm_linear',svm.SVC(kernel='linear',C=1,class_weight={0:0.67,1:1}))])
+pipe=Pipeline([('pca',PCA()), ('scaled',StandardScaler()), ('svm_linear',svm.SVC(kernel='linear',C=1,class_weight='balanced'))])
 
 cval=[2**-9, 2**-8, 2**-7, 2**-6, 2**-5, 2**-4, 2**-3, 2**-2, 2**-1, 2**0, 2**1, 2**2, 2**3, 2**4, 2**5, 2**6, 2**7, 2**8, 2**9]
 

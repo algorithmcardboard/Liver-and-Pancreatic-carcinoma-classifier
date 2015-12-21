@@ -1,0 +1,1304 @@
+
+New python executable in .venv/bin/python
+Installing setuptools, pip...done.
+You are using pip version 6.1.1, however version 7.1.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting cycler==0.9.0 (from -r requirements.txt (line 1))
+  Using cached cycler-0.9.0-py2.py3-none-any.whl
+Collecting matplotlib==1.5.0 (from -r requirements.txt (line 2))
+  Using cached matplotlib-1.5.0.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): numpy==1.10.1 in /share/apps/numpy/1.10.1/intel/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Collecting pandas==0.17.1 (from -r requirements.txt (line 4))
+  Using cached pandas-0.17.1.tar.gz
+Collecting pyparsing==2.0.6 (from -r requirements.txt (line 5))
+  Using cached pyparsing-2.0.6-py2.py3-none-any.whl
+Collecting python-dateutil==2.4.2 (from -r requirements.txt (line 6))
+  Using cached python_dateutil-2.4.2-py2.py3-none-any.whl
+Collecting pytz==2015.7 (from -r requirements.txt (line 7))
+  Using cached pytz-2015.7-py2.py3-none-any.whl
+Collecting scikit-learn==0.17 (from -r requirements.txt (line 8))
+  Using cached scikit-learn-0.17.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): scipy==0.16.0 in /share/apps/scipy/0.16.0/intel/lib/python2.7/site-packages (from -r requirements.txt (line 9))
+Collecting six==1.10.0 (from -r requirements.txt (line 10))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting sklearn==0.0 (from -r requirements.txt (line 11))
+  Using cached sklearn-0.0.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): virtualenv==12.1.1 in /share/apps/virtualenv/12.1.1/lib/python2.7/site-packages/virtualenv-12.1.1-py2.7.egg (from -r requirements.txt (line 12))
+Installing collected packages: six, cycler, python-dateutil, pytz, pyparsing, matplotlib, pandas, scikit-learn, sklearn
+  Running setup.py install for matplotlib
+  Running setup.py install for pandas
+  Running setup.py install for scikit-learn
+  Running setup.py install for sklearn
+Successfully installed cycler-0.9.0 matplotlib-1.5.0 pandas-0.17.1 pyparsing-2.0.6 python-dateutil-2.4.2 pytz-2015.7 scikit-learn-0.17 six-1.10.0 sklearn-0.0
+Fitting 10 folds for each of 2166 candidates, totalling 21660 fits
+Memmaping (shape=(468, 485577), dtype=float64) to new file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125 
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125 
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125 
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125 
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125 
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125 
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125 
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125 
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125 
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125 
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625 
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625 
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125, score=0.695652 - 2.0min
+[Parallel(n_jobs=12)]: Done   1 tasks      | elapsed:  2.0min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625, score=0.687500 - 2.6min
+[Parallel(n_jobs=12)]: Done   2 tasks      | elapsed:  2.6min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625, score=0.687500 - 2.6min
+[Parallel(n_jobs=12)]: Done   3 tasks      | elapsed:  2.6min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125, score=0.687500 - 3.1min
+[Parallel(n_jobs=12)]: Done   4 tasks      | elapsed:  3.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125, score=0.695652 - 3.1min
+[Parallel(n_jobs=12)]: Done   5 tasks      | elapsed:  3.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125, score=0.695652 - 3.1min
+[Parallel(n_jobs=12)]: Done   6 tasks      | elapsed:  3.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125, score=0.695652 - 3.2min
+[Parallel(n_jobs=12)]: Done   7 tasks      | elapsed:  3.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125, score=0.319149 - 3.2min
+[Parallel(n_jobs=12)]: Done   8 tasks      | elapsed:  3.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125, score=0.319149 - 3.3min
+[Parallel(n_jobs=12)]: Done   9 tasks      | elapsed:  3.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125, score=0.319149 - 3.3min
+[Parallel(n_jobs=12)]: Done  10 tasks      | elapsed:  3.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125, score=0.687500 - 3.3min
+[Parallel(n_jobs=12)]: Done  11 tasks      | elapsed:  3.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125 
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.001953125, score=0.319149 - 3.3min
+[Parallel(n_jobs=12)]: Done  12 tasks      | elapsed:  3.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625, score=0.319149 - 3.9min
+[Parallel(n_jobs=12)]: Done  13 tasks      | elapsed:  5.9min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625, score=0.319149 - 3.4min
+[Parallel(n_jobs=12)]: Done  14 tasks      | elapsed:  5.9min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625, score=0.319149 - 3.0min
+[Parallel(n_jobs=12)]: Done  15 tasks      | elapsed:  6.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625, score=0.319149 - 3.5min
+[Parallel(n_jobs=12)]: Done  16 tasks      | elapsed:  6.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625, score=0.695652 - 3.3min
+[Parallel(n_jobs=12)]: Done  17 tasks      | elapsed:  6.5min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625, score=0.695652 - 3.4min
+[Parallel(n_jobs=12)]: Done  18 tasks      | elapsed:  6.5min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125, score=0.687500 - 3.3min
+[Parallel(n_jobs=12)]: Done  19 tasks      | elapsed:  6.6min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625, score=0.695652 - 3.3min
+[Parallel(n_jobs=12)]: Done  20 tasks      | elapsed:  6.6min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125, score=0.687500 - 3.3min
+[Parallel(n_jobs=12)]: Done  21 tasks      | elapsed:  6.6min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.00390625, score=0.695652 - 3.5min
+[Parallel(n_jobs=12)]: Done  22 tasks      | elapsed:  6.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125, score=0.319149 - 3.4min
+[Parallel(n_jobs=12)]: Done  23 tasks      | elapsed:  6.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125, score=0.319149 - 3.5min
+[Parallel(n_jobs=12)]: Done  24 tasks      | elapsed:  6.9min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125, score=0.319149 - 2.0min
+[Parallel(n_jobs=12)]: Done  25 tasks      | elapsed:  7.9min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125, score=0.695652 - 2.2min
+[Parallel(n_jobs=12)]: Done  26 tasks      | elapsed:  8.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125, score=0.319149 - 3.6min
+[Parallel(n_jobs=12)]: Done  27 tasks      | elapsed:  9.5min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125, score=0.695652 - 3.5min
+[Parallel(n_jobs=12)]: Done  28 tasks      | elapsed:  9.6min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125, score=0.695652 - 3.1min
+[Parallel(n_jobs=12)]: Done  29 tasks      | elapsed:  9.6min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0078125, score=0.695652 - 3.2min
+[Parallel(n_jobs=12)]: Done  30 tasks      | elapsed:  9.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625, score=0.687500 - 3.2min
+[Parallel(n_jobs=12)]: Done  31 tasks      | elapsed:  9.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625, score=0.319149 - 3.2min
+[Parallel(n_jobs=12)]: Done  32 tasks      | elapsed:  9.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625, score=0.687500 - 3.2min
+[Parallel(n_jobs=12)]: Done  33 tasks      | elapsed:  9.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125 
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625, score=0.319149 - 3.2min
+[Parallel(n_jobs=12)]: Done  34 tasks      | elapsed:  9.9min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625, score=0.319149 - 3.5min
+[Parallel(n_jobs=12)]: Done  35 tasks      | elapsed: 10.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625, score=0.695652 - 2.5min
+[Parallel(n_jobs=12)]: Done  36 tasks      | elapsed: 10.5min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625, score=0.319149 - 4.0min
+[Parallel(n_jobs=12)]: Done  37 tasks      | elapsed: 10.9min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625, score=0.695652 - 4.1min
+[Parallel(n_jobs=12)]: Done  38 tasks      | elapsed: 12.5min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125, score=0.687500 - 3.2min
+[Parallel(n_jobs=12)]: Done  39 tasks      | elapsed: 12.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625, score=0.695652 - 3.4min
+[Parallel(n_jobs=12)]: Done  40 tasks      | elapsed: 13.0min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125, score=0.687500 - 3.4min
+[Parallel(n_jobs=12)]: Done  41 tasks      | elapsed: 13.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125, score=0.319149 - 3.3min
+[Parallel(n_jobs=12)]: Done  42 tasks      | elapsed: 13.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125, score=0.319149 - 3.4min
+[Parallel(n_jobs=12)]: Done  43 tasks      | elapsed: 13.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125, score=0.319149 - 3.5min
+[Parallel(n_jobs=12)]: Done  44 tasks      | elapsed: 13.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.015625, score=0.695652 - 3.8min
+[Parallel(n_jobs=12)]: Done  45 tasks      | elapsed: 13.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125, score=0.319149 - 3.5min
+[Parallel(n_jobs=12)]: Done  46 tasks      | elapsed: 13.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125, score=0.695652 - 3.6min
+[Parallel(n_jobs=12)]: Done  47 tasks      | elapsed: 13.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125, score=0.695652 - 4.2min
+[Parallel(n_jobs=12)]: Done  48 tasks      | elapsed: 14.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125, score=0.695652 - 4.3min
+[Parallel(n_jobs=12)]: Done  49 tasks      | elapsed: 15.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625, score=0.695652 - 2.1min
+[Parallel(n_jobs=12)]: Done  50 tasks      | elapsed: 15.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.03125, score=0.695652 - 3.6min
+[Parallel(n_jobs=12)]: Done  51 tasks      | elapsed: 16.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625, score=0.687500 - 3.5min
+[Parallel(n_jobs=12)]: Done  52 tasks      | elapsed: 16.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625, score=0.319149 - 3.3min
+[Parallel(n_jobs=12)]: Done  53 tasks      | elapsed: 16.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625, score=0.687500 - 3.4min
+[Parallel(n_jobs=12)]: Done  54 tasks      | elapsed: 16.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625, score=0.319149 - 3.4min
+[Parallel(n_jobs=12)]: Done  55 tasks      | elapsed: 16.5min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625, score=0.319149 - 3.4min
+[Parallel(n_jobs=12)]: Done  56 tasks      | elapsed: 16.6min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625, score=0.319149 - 3.4min
+[Parallel(n_jobs=12)]: Done  57 tasks      | elapsed: 16.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625, score=0.695652 - 3.5min
+[Parallel(n_jobs=12)]: Done  58 tasks      | elapsed: 16.9min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625, score=0.695652 - 3.7min
+[Parallel(n_jobs=12)]: Done  59 tasks      | elapsed: 17.6min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.0625, score=0.695652 - 4.1min
+[Parallel(n_jobs=12)]: Done  60 tasks      | elapsed: 18.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125, score=0.687500 - 4.0min
+[Parallel(n_jobs=12)]: Done  61 tasks      | elapsed: 19.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125, score=0.687500 - 3.9min
+[Parallel(n_jobs=12)]: Done  62 tasks      | elapsed: 19.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25, score=0.687500 - 2.0min
+[Parallel(n_jobs=12)]: Done  63 tasks      | elapsed: 19.6min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125, score=0.319149 - 3.8min
+[Parallel(n_jobs=12)]: Done  64 tasks      | elapsed: 19.9min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125, score=0.319149 - 3.6min
+[Parallel(n_jobs=12)]: Done  65 tasks      | elapsed: 20.0min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125, score=0.319149 - 3.8min
+[Parallel(n_jobs=12)]: Done  66 tasks      | elapsed: 20.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125, score=0.319149 - 3.7min
+[Parallel(n_jobs=12)]: Done  67 tasks      | elapsed: 20.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125, score=0.695652 - 3.6min
+[Parallel(n_jobs=12)]: Done  68 tasks      | elapsed: 20.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125, score=0.695652 - 3.3min
+[Parallel(n_jobs=12)]: Done  69 tasks      | elapsed: 20.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125, score=0.695652 - 3.7min
+[Parallel(n_jobs=12)]: Done  70 tasks      | elapsed: 20.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.125, score=0.695652 - 3.9min
+[Parallel(n_jobs=12)]: Done  71 tasks      | elapsed: 20.5min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5, score=0.687500 - 1.6min
+[Parallel(n_jobs=12)]: Done  72 tasks      | elapsed: 21.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25, score=0.687500 - 3.6min
+[Parallel(n_jobs=12)]: Done  73 tasks      | elapsed: 22.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25, score=0.319149 - 3.9min
+[Parallel(n_jobs=12)]: Done  74 tasks      | elapsed: 23.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25, score=0.319149 - 3.8min
+[Parallel(n_jobs=12)]: Done  75 tasks      | elapsed: 23.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5 
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5, score=0.319149 - 1.4min
+[Parallel(n_jobs=12)]: Done  76 tasks      | elapsed: 23.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25, score=0.695652 - 3.7min
+[Parallel(n_jobs=12)]: Done  77 tasks      | elapsed: 23.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25, score=0.319149 - 4.1min
+[Parallel(n_jobs=12)]: Done  78 tasks      | elapsed: 23.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25, score=0.319149 - 3.8min
+[Parallel(n_jobs=12)]: Done  79 tasks      | elapsed: 23.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25, score=0.695652 - 3.7min
+[Parallel(n_jobs=12)]: Done  80 tasks      | elapsed: 23.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25, score=0.695652 - 3.7min
+[Parallel(n_jobs=12)]: Done  81 tasks      | elapsed: 23.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.25, score=0.695652 - 3.7min
+[Parallel(n_jobs=12)]: Done  82 tasks      | elapsed: 23.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5, score=0.687500 - 3.7min
+[Parallel(n_jobs=12)]: Done  83 tasks      | elapsed: 24.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5, score=0.319149 - 3.9min
+[Parallel(n_jobs=12)]: Done  84 tasks      | elapsed: 24.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5, score=0.695652 - 1.4min
+[Parallel(n_jobs=12)]: Done  85 tasks      | elapsed: 24.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5, score=0.695652 - 3.1min
+[Parallel(n_jobs=12)]: Done  86 tasks      | elapsed: 26.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5, score=0.319149 - 3.9min
+[Parallel(n_jobs=12)]: Done  87 tasks      | elapsed: 26.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5, score=0.319149 - 3.6min
+[Parallel(n_jobs=12)]: Done  88 tasks      | elapsed: 26.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1, score=0.687500 - 3.3min
+[Parallel(n_jobs=12)]: Done  89 tasks      | elapsed: 27.0min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5, score=0.695652 - 3.3min
+[Parallel(n_jobs=12)]: Done  90 tasks      | elapsed: 27.0min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=0.5, score=0.695652 - 3.4min
+[Parallel(n_jobs=12)]: Done  91 tasks      | elapsed: 27.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1, score=0.319149 - 3.4min
+[Parallel(n_jobs=12)]: Done  92 tasks      | elapsed: 27.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1, score=0.687500 - 3.5min
+[Parallel(n_jobs=12)]: Done  93 tasks      | elapsed: 27.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1, score=0.319149 - 3.5min
+[Parallel(n_jobs=12)]: Done  94 tasks      | elapsed: 27.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1, score=0.319149 - 3.7min
+[Parallel(n_jobs=12)]: Done  95 tasks      | elapsed: 27.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1, score=0.319149 - 4.4min
+[Parallel(n_jobs=12)]: Done  96 tasks      | elapsed: 28.9min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1, score=0.695652 - 4.2min
+[Parallel(n_jobs=12)]: Done  97 tasks      | elapsed: 28.9min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1, score=0.695652 - 2.9min
+[Parallel(n_jobs=12)]: Done  98 tasks      | elapsed: 29.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1, score=0.695652 - 3.8min
+[Parallel(n_jobs=12)]: Done  99 tasks      | elapsed: 30.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2, score=0.687500 - 3.4min
+[Parallel(n_jobs=12)]: Done 100 tasks      | elapsed: 30.5min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=1, score=0.695652 - 3.7min
+[Parallel(n_jobs=12)]: Done 101 tasks      | elapsed: 30.5min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2, score=0.687500 - 3.5min
+[Parallel(n_jobs=12)]: Done 102 tasks      | elapsed: 30.5min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2, score=0.319149 - 3.7min
+[Parallel(n_jobs=12)]: Done 103 tasks      | elapsed: 30.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2, score=0.319149 - 3.8min
+[Parallel(n_jobs=12)]: Done 104 tasks      | elapsed: 31.0min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2, score=0.695652 - 1.9min
+[Parallel(n_jobs=12)]: Done 105 tasks      | elapsed: 31.0min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2, score=0.319149 - 3.7min
+[Parallel(n_jobs=12)]: Done 106 tasks      | elapsed: 31.0min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2, score=0.319149 - 3.8min
+[Parallel(n_jobs=12)]: Done 107 tasks      | elapsed: 31.0min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2, score=0.695652 - 3.8min
+[Parallel(n_jobs=12)]: Done 108 tasks      | elapsed: 31.6min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2, score=0.695652 - 3.6min
+[Parallel(n_jobs=12)]: Done 109 tasks      | elapsed: 32.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4, score=0.695652 - 1.8min
+[Parallel(n_jobs=12)]: Done 110 tasks      | elapsed: 32.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=2, score=0.695652 - 3.9min
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8 
+[Parallel(n_jobs=12)]: Done 111 tasks      | elapsed: 32.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4, score=0.687500 - 3.7min
+[Parallel(n_jobs=12)]: Done 112 tasks      | elapsed: 33.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4, score=0.687500 - 3.6min
+[Parallel(n_jobs=12)]: Done 113 tasks      | elapsed: 34.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4, score=0.319149 - 3.6min
+[Parallel(n_jobs=12)]: Done 114 tasks      | elapsed: 34.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8, score=0.687500 - 1.5min
+[Parallel(n_jobs=12)]: Done 115 tasks      | elapsed: 34.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4, score=0.319149 - 3.8min
+[Parallel(n_jobs=12)]: Done 116 tasks      | elapsed: 34.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4, score=0.319149 - 3.7min
+[Parallel(n_jobs=12)]: Done 117 tasks      | elapsed: 34.5min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4, score=0.695652 - 3.5min
+[Parallel(n_jobs=12)]: Done 118 tasks      | elapsed: 34.5min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4, score=0.319149 - 3.5min
+[Parallel(n_jobs=12)]: Done 119 tasks      | elapsed: 34.5min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4, score=0.695652 - 3.6min
+[Parallel(n_jobs=12)]: Done 120 tasks      | elapsed: 34.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=4, score=0.695652 - 3.7min
+[Parallel(n_jobs=12)]: Done 121 tasks      | elapsed: 35.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8, score=0.687500 - 4.4min
+[Parallel(n_jobs=12)]: Done 122 tasks      | elapsed: 36.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8, score=0.319149 - 2.9min
+[Parallel(n_jobs=12)]: Done 123 tasks      | elapsed: 36.9min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8, score=0.319149 - 4.4min
+[Parallel(n_jobs=12)]: Done 124 tasks      | elapsed: 37.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16, score=0.687500 - 2.8min
+[Parallel(n_jobs=12)]: Done 125 tasks      | elapsed: 37.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8, score=0.319149 - 4.0min
+[Parallel(n_jobs=12)]: Done 126 tasks      | elapsed: 37.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8, score=0.319149 - 3.7min
+[Parallel(n_jobs=12)]: Done 127 tasks      | elapsed: 37.9min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8, score=0.695652 - 3.4min
+[Parallel(n_jobs=12)]: Done 128 tasks      | elapsed: 37.9min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8, score=0.695652 - 3.7min
+[Parallel(n_jobs=12)]: Done 129 tasks      | elapsed: 38.0min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8, score=0.695652 - 3.6min
+[Parallel(n_jobs=12)]: Done 130 tasks      | elapsed: 38.0min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32 
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=8, score=0.695652 - 3.7min
+[Parallel(n_jobs=12)]: Done 131 tasks      | elapsed: 38.1min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16, score=0.687500 - 3.8min
+[Parallel(n_jobs=12)]: Done 132 tasks      | elapsed: 38.5min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16, score=0.319149 - 3.7min
+[Parallel(n_jobs=12)]: Done 133 tasks      | elapsed: 39.0min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16, score=0.695652 - 2.0min
+[Parallel(n_jobs=12)]: Done 134 tasks      | elapsed: 39.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16, score=0.695652 - 2.3min
+[Parallel(n_jobs=12)]: Done 135 tasks      | elapsed: 40.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16, score=0.319149 - 3.6min
+[Parallel(n_jobs=12)]: Done 136 tasks      | elapsed: 40.5min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16, score=0.319149 - 3.8min
+[Parallel(n_jobs=12)]: Done 137 tasks      | elapsed: 40.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16, score=0.319149 - 3.6min
+[Parallel(n_jobs=12)]: Done 138 tasks      | elapsed: 40.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16, score=0.695652 - 3.5min
+[Parallel(n_jobs=12)]: Done 139 tasks      | elapsed: 41.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=16, score=0.695652 - 3.5min
+[Parallel(n_jobs=12)]: Done 140 tasks      | elapsed: 41.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32, score=0.687500 - 3.5min
+[Parallel(n_jobs=12)]: Done 141 tasks      | elapsed: 41.6min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32, score=0.687500 - 3.5min
+[Parallel(n_jobs=12)]: Done 142 tasks      | elapsed: 41.6min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32, score=0.319149 - 3.7min
+[Parallel(n_jobs=12)]: Done 143 tasks      | elapsed: 41.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32, score=0.319149 - 2.9min
+[Parallel(n_jobs=12)]: Done 144 tasks      | elapsed: 42.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32, score=0.319149 - 3.9min
+[Parallel(n_jobs=12)]: Done 145 tasks      | elapsed: 42.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32, score=0.319149 - 4.4min
+[Parallel(n_jobs=12)]: Done 146 tasks      | elapsed: 43.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32, score=0.695652 - 3.1min
+[Parallel(n_jobs=12)]: Done 147 tasks      | elapsed: 43.6min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32, score=0.695652 - 3.6min
+[Parallel(n_jobs=12)]: Done 148 tasks      | elapsed: 43.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64, score=0.319149 - 2.7min
+[Parallel(n_jobs=12)]: Done 149 tasks      | elapsed: 44.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32, score=0.695652 - 3.6min
+[Parallel(n_jobs=12)]: Done 150 tasks      | elapsed: 44.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=32, score=0.695652 - 3.6min
+[Parallel(n_jobs=12)]: Done 151 tasks      | elapsed: 44.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64, score=0.687500 - 3.5min
+[Parallel(n_jobs=12)]: Done 152 tasks      | elapsed: 44.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64, score=0.687500 - 3.5min
+[Parallel(n_jobs=12)]: Done 153 tasks      | elapsed: 44.9min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64, score=0.319149 - 3.6min
+[Parallel(n_jobs=12)]: Done 154 tasks      | elapsed: 45.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64, score=0.319149 - 3.6min
+[Parallel(n_jobs=12)]: Done 155 tasks      | elapsed: 45.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64, score=0.319149 - 3.4min
+[Parallel(n_jobs=12)]: Done 156 tasks      | elapsed: 45.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128, score=0.687500 - 1.7min
+[Parallel(n_jobs=12)]: Done 157 tasks      | elapsed: 46.0min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64, score=0.695652 - 3.8min
+[Parallel(n_jobs=12)]: Done 158 tasks      | elapsed: 46.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128, score=0.695652 - 1.2min
+[Parallel(n_jobs=12)]: Done 159 tasks      | elapsed: 47.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=256 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64, score=0.695652 - 3.9min
+[Parallel(n_jobs=12)]: Done 160 tasks      | elapsed: 47.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=256 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64, score=0.695652 - 3.7min
+[Parallel(n_jobs=12)]: Done 161 tasks      | elapsed: 47.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=256 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=64, score=0.695652 - 3.8min
+[Parallel(n_jobs=12)]: Done 162 tasks      | elapsed: 47.6min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=256 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128, score=0.687500 - 3.4min
+[Parallel(n_jobs=12)]: Done 163 tasks      | elapsed: 47.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(420,), dtype=int64).
+Pickling array (shape=(48,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=256 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128, score=0.319149 - 3.7min
+[Parallel(n_jobs=12)]: Done 164 tasks      | elapsed: 48.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=256 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128, score=0.319149 - 3.7min
+[Parallel(n_jobs=12)]: Done 165 tasks      | elapsed: 48.4min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=256 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128, score=0.319149 - 3.8min
+[Parallel(n_jobs=12)]: Done 166 tasks      | elapsed: 48.7min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=256 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128, score=0.319149 - 3.8min
+[Parallel(n_jobs=12)]: Done 167 tasks      | elapsed: 49.0min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(421,), dtype=int64).
+Pickling array (shape=(47,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=256 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=128, score=0.695652 - 3.9min
+[Parallel(n_jobs=12)]: Done 168 tasks      | elapsed: 49.2min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=256 
+[CV]  svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=256, score=0.319149 - 2.0min
+[Parallel(n_jobs=12)]: Done 169 tasks      | elapsed: 49.3min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_14576_47180921009232/14576-58628112-58159472-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(422,), dtype=int64).
+Pickling array (shape=(46,), dtype=int64).
+[CV] svm_gaussian__C=0.001953125, pca__n_components=4, svm_gaussian__gamma=512 
