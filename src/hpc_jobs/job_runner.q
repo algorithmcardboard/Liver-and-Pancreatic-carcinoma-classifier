@@ -28,4 +28,4 @@ source .venv/bin/activate;
 
 pip install -r requirements.txt
 
-python -u pipeline/gnb_cancer_type.py
+python -u pipeline/adaboost_methylation.py
