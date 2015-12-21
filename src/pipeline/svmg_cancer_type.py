@@ -27,7 +27,7 @@ cval=[2**-9,2**-8,2**-7,2**-6,2**-5, 2**-4, 2**-3, 2**-2, 2**-1, 2**0, 2**1, 2**
 gval=[2**-9,2**-8,2**-7,2**-6,2**-5, 2**-4, 2**-3, 2**-2, 2**-1, 2**0, 2**1, 2**2, 2**3, 2**4, 2**5, 2**6, 2**7, 2**8, 2**9]
 pca_val=[4, 20, 92, 255, 361, 513]
 
-gs=GridSearchCV(pipe, dict(pca__n_components=pca_val, svm_gaussian__C=cval, svm_gaussian__gamma=gval), cv=StratifiedShuffleSplit(Y[:,1],test_size=0.25,random_state=30), n_jobs=12, verbose=100)
+gs=GridSearchCV(pipe, dict(pca__n_components=pca_val, svm_gaussian__C=cval, svm_gaussian__gamma=gval), cv=10, n_jobs=12, verbose=100)
 gs.fit(X_train, Y_train1)
 
 score=gs.score(X_test, Y_test1)
