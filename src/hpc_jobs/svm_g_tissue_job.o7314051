@@ -30,13 +30,12 @@ Installing collected packages: six, cycler, python-dateutil, pytz, pyparsing, ma
   Running setup.py install for scikit-learn
   Running setup.py install for sklearn
 Successfully installed cycler-0.9.0 matplotlib-1.5.0 pandas-0.17.1 pyparsing-2.0.6 python-dateutil-2.4.2 pytz-2015.7 scikit-learn-0.17 six-1.10.0 sklearn-0.0
-Script start at  2015-12-20T19:05:39.083263
 Traceback (most recent call last):
-  File "pipeline/svml_tissue_type.py", line 25, in <module>
+  File "pipeline/svmg_tissue_type.py", line 22, in <module>
     X_train, X_test, Y_train2, Y_test2 = train_test_split(X, Y[:,2], test_size=0.25, random_state=30, stratify=Y[:,2])
-  File "/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7313251/.venv/lib/python2.7/site-packages/sklearn/cross_validation.py", line 1910, in train_test_split
+  File "/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7314051/.venv/lib/python2.7/site-packages/sklearn/cross_validation.py", line 1910, in train_test_split
     random_state=random_state)
-  File "/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7313251/.venv/lib/python2.7/site-packages/sklearn/cross_validation.py", line 962, in __init__
+  File "/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7314051/.venv/lib/python2.7/site-packages/sklearn/cross_validation.py", line 962, in __init__
     raise ValueError("The least populated class in y has only 1"
 ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of labels for any class cannot be less than 2.
 
