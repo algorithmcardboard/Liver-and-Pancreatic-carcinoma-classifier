@@ -25,8 +25,7 @@ X_train, X_test, Y_train1, Y_test1 = train_test_split(X, Y[:,1], test_size=0.25,
 
 pipe=Pipeline([('pca',PCA()), ('scaled',StandardScaler()), ('gbayes',GaussianNB())])
 
-#pca_val=[4,20,92,255,361,513,485577]
-pca_val=[4,20,92,255,361,513]
+pca_val=[4,20,92,255,361,513,485577]
 
 gs=GridSearchCV(pipe, dict(pca__n_components=pca_val), n_jobs=12, verbose=100)
 gs.fit(X_train, Y_train1)

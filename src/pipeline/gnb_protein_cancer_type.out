@@ -1,0 +1,155 @@
+Script start at  2015-12-21T01:57:54.663271
+Fitting 3 folds for each of 7 candidates, totalling 21 fits
+[CV] pca__n_components=44 ............................................
+[CV] ................... pca__n_components=44, score=0.868421 -   0.4s
+[CV] pca__n_components=6 .............................................
+[CV] .................... pca__n_components=6, score=0.844156 -   0.4s
+[CV] pca__n_components=66 ............................................
+[CV] ................... pca__n_components=66, score=0.818182 -   0.1s
+[CV] pca__n_components=44 ............................................
+[CV] ................... pca__n_components=44, score=0.766234 -   0.5s
+[CV] pca__n_components=12 ............................................
+[CV] ................... pca__n_components=12, score=0.844156 -   0.4s
+[CV] pca__n_components=66 ............................................
+[CV] ................... pca__n_components=66, score=0.842105 -   0.1s
+[CV] pca__n_components=22 ............................................
+[CV] ................... pca__n_components=22, score=0.805195 -   0.6s
+[CV] pca__n_components=6 .............................................
+[CV] .................... pca__n_components=6, score=0.792208 -   0.4s
+[CV] pca__n_components=66 ............................................
+[CV] ................... pca__n_components=66, score=0.831169 -   0.1s
+[CV] pca__n_components=22 ............................................
+[CV] ................... pca__n_components=22, score=0.815789 -   0.4s
+[CV] pca__n_components=116 ...........................................
+[CV] .................. pca__n_components=116, score=0.662338 -   0.1s
+[CV] pca__n_components=12 ............................................
+[CV] ................... pca__n_components=12, score=0.844156 -   0.5s
+[CV] pca__n_components=116 ...........................................
+[CV] .................. pca__n_components=116, score=0.710526 -   0.1s
+[CV] pca__n_components=6 .............................................
+[CV] .................... pca__n_components=6, score=0.842105 -   0.4s
+[CV] pca__n_components=116 ...........................................
+[CV] .................. pca__n_components=116, score=0.623377 -   0.2s
+[CV] pca__n_components=12 ............................................
+[CV] ................... pca__n_components=12, score=0.802632 -   0.5s
+[CV] pca__n_components=205 ...........................................
+[CV] .................. pca__n_components=205, score=0.597403 -   0.1s
+[CV] pca__n_components=22 ............................................
+[CV] ................... pca__n_components=22, score=0.818182 -   0.4s
+[CV] pca__n_components=205 ...........................................
+[CV] .................. pca__n_components=205, score=0.597403 -   0.2s
+[CV] pca__n_components=44 ............................................
+[CV] ................... pca__n_components=44, score=0.805195 -   0.5s
+[CV] pca__n_components=205 ...........................................
+[CV] .................. pca__n_components=205, score=0.605263 -   0.2s
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(153,), dtype=int64).
+Pickling array (shape=(77,), dtype=int64).
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(153,), dtype=int64).
+Pickling array (shape=(77,), dtype=int64).
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(154,), dtype=int64).
+Pickling array (shape=(76,), dtype=int64).
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(153,), dtype=int64).
+Pickling array (shape=(77,), dtype=int64).
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(153,), dtype=int64).
+Pickling array (shape=(77,), dtype=int64).
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(154,), dtype=int64).
+Pickling array (shape=(76,), dtype=int64).
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(153,), dtype=int64).
+Pickling array (shape=(77,), dtype=int64).
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(153,), dtype=int64).
+Pickling array (shape=(77,), dtype=int64).
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(154,), dtype=int64).
+Pickling array (shape=(76,), dtype=int64).
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(153,), dtype=int64).
+Pickling array (shape=(77,), dtype=int64).
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(153,), dtype=int64).
+Pickling array (shape=(77,), dtype=int64).
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(154,), dtype=int64).
+Pickling array (shape=(76,), dtype=int64).
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(153,), dtype=int64).
+Pickling array (shape=(77,), dtype=int64).
+[Parallel(n_jobs=12)]: Done   1 tasks      | elapsed:    0.4s
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(153,), dtype=int64).
+Pickling array (shape=(77,), dtype=int64).
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.5s remaining:   -0.0s
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.5s remaining:   -0.0s
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(154,), dtype=int64).
+Pickling array (shape=(76,), dtype=int64).
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(153,), dtype=int64).
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.5s remaining:   -0.0s
+Pickling array (shape=(77,), dtype=int64).
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.5s remaining:   -0.0s
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.5s remaining:   -0.0s
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(153,), dtype=int64).
+Pickling array (shape=(77,), dtype=int64).
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(154,), dtype=int64).
+Pickling array (shape=(76,), dtype=int64).
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(153,), dtype=int64).
+Pickling array (shape=(77,), dtype=int64).
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.5s remaining:   -0.0s
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.5s remaining:   -0.0s
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(153,), dtype=int64).
+Pickling array (shape=(77,), dtype=int64).
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.5s remaining:   -0.0s
+Pickling array (shape=(230, 205), dtype=float64).
+Pickling array (shape=(230,), dtype=float64).
+Pickling array (shape=(154,), dtype=int64).
+Pickling array (shape=(76,), dtype=int64).
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.5s remaining:   -0.0s
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.6s remaining:   -0.0s
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.6s remaining:   -0.0s
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.6s remaining:   -0.0s
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.6s remaining:   -0.0s
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.6s remaining:   -0.0s
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.6s remaining:   -0.0s
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.6s remaining:   -0.0s
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.7s remaining:   -0.0s
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.7s remaining:   -0.0s
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.7s remaining:   -0.0s
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:    0.7s remaining:   -0.0s
+[Parallel(n_jobs=12)]: Done  21 out of  21 | elapsed:    0.7s finished
+0.818181818182
+0.830434782609
+Pipeline(steps=[('pca', PCA(copy=True, n_components=12, whiten=False)), ('scaled', StandardScaler(copy=True, with_mean=True, with_std=True)), ('gbayes', GaussianNB())])
+{'pca__n_components': 12}
+Script end at  2015-12-21T01:57:55.634138

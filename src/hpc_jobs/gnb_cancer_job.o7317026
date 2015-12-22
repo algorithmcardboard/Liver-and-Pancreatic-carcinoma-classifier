@@ -1,0 +1,197 @@
+
+New python executable in .venv/bin/python
+Installing setuptools, pip...done.
+/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7317026/.venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:79: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+You are using pip version 6.1.1, however version 7.1.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting cycler==0.9.0 (from -r requirements.txt (line 1))
+/scratch/ac5901/Pancreatic-carcinoma-classifier/run-7317026/.venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:79: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+  Using cached cycler-0.9.0-py2.py3-none-any.whl
+Collecting matplotlib==1.5.0 (from -r requirements.txt (line 2))
+  Using cached matplotlib-1.5.0.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): numpy==1.10.1 in /share/apps/numpy/1.10.1/intel/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Collecting pandas==0.17.1 (from -r requirements.txt (line 4))
+  Using cached pandas-0.17.1.tar.gz
+Collecting pyparsing==2.0.6 (from -r requirements.txt (line 5))
+  Using cached pyparsing-2.0.6-py2.py3-none-any.whl
+Collecting python-dateutil==2.4.2 (from -r requirements.txt (line 6))
+  Using cached python_dateutil-2.4.2-py2.py3-none-any.whl
+Collecting pytz==2015.7 (from -r requirements.txt (line 7))
+  Using cached pytz-2015.7-py2.py3-none-any.whl
+Collecting scikit-learn==0.17 (from -r requirements.txt (line 8))
+  Using cached scikit-learn-0.17.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): scipy==0.16.0 in /share/apps/scipy/0.16.0/intel/lib/python2.7/site-packages (from -r requirements.txt (line 9))
+Collecting six==1.10.0 (from -r requirements.txt (line 10))
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting sklearn==0.0 (from -r requirements.txt (line 11))
+  Using cached sklearn-0.0.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): virtualenv==12.1.1 in /share/apps/virtualenv/12.1.1/lib/python2.7/site-packages/virtualenv-12.1.1-py2.7.egg (from -r requirements.txt (line 12))
+Installing collected packages: six, cycler, python-dateutil, pytz, pyparsing, matplotlib, pandas, scikit-learn, sklearn
+  Running setup.py install for matplotlib
+  Running setup.py install for pandas
+  Running setup.py install for scikit-learn
+  Running setup.py install for sklearn
+Successfully installed cycler-0.9.0 matplotlib-1.5.0 pandas-0.17.1 pyparsing-2.0.6 python-dateutil-2.4.2 pytz-2015.7 scikit-learn-0.17 six-1.10.0 sklearn-0.0
+Script start at  2015-12-21T04:16:25.209299
+Fitting 3 folds for each of 7 candidates, totalling 21 fits
+Memmaping (shape=(468, 485577), dtype=float64) to new file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(311,), dtype=int64).
+Pickling array (shape=(157,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+[CV] pca__n_components=4 .............................................
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(312,), dtype=int64).
+Pickling array (shape=(156,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+[CV] pca__n_components=4 .............................................
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(313,), dtype=int64).
+Pickling array (shape=(155,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+[CV] pca__n_components=4 .............................................
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(311,), dtype=int64).
+Pickling array (shape=(157,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+[CV] pca__n_components=20 ............................................
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(312,), dtype=int64).
+Pickling array (shape=(156,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+[CV] pca__n_components=20 ............................................
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(313,), dtype=int64).
+Pickling array (shape=(155,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+[CV] pca__n_components=20 ............................................
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(311,), dtype=int64).
+Pickling array (shape=(157,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+[CV] pca__n_components=92 ............................................
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(312,), dtype=int64).
+Pickling array (shape=(156,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+[CV] pca__n_components=92 ............................................
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(313,), dtype=int64).
+Pickling array (shape=(155,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+[CV] pca__n_components=92 ............................................
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(311,), dtype=int64).
+Pickling array (shape=(157,), dtype=int64).
+[CV] pca__n_components=255 ...........................................
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(312,), dtype=int64).
+Pickling array (shape=(156,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+[CV] pca__n_components=255 ...........................................
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(313,), dtype=int64).
+Pickling array (shape=(155,), dtype=int64).
+[CV] pca__n_components=255 ...........................................
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(311,), dtype=int64).
+Pickling array (shape=(157,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(312,), dtype=int64).
+Pickling array (shape=(156,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(313,), dtype=int64).
+Pickling array (shape=(155,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(311,), dtype=int64).
+Pickling array (shape=(157,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(312,), dtype=int64).
+Pickling array (shape=(156,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(313,), dtype=int64).
+Pickling array (shape=(155,), dtype=int64).
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(311,), dtype=int64).
+Pickling array (shape=(157,), dtype=int64).
+[CV] ................... pca__n_components=20, score=0.961538 - 1.8min
+[Parallel(n_jobs=12)]: Done   1 tasks      | elapsed:  1.8min
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(312,), dtype=int64).
+Pickling array (shape=(156,), dtype=int64).
+[CV] pca__n_components=361 ...........................................
+[CV] .................... pca__n_components=4, score=0.961783 - 1.8min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  1.8min remaining:   -5.0s
+Memmaping (shape=(468, 485577), dtype=float64) to old file /dev/shm/joblib_memmaping_pool_46696_47314412287056/46696-48732240-48305856-0.pkl
+Pickling array (shape=(468,), dtype=float64).
+Pickling array (shape=(313,), dtype=int64).
+Pickling array (shape=(155,), dtype=int64).
+[CV] pca__n_components=361 ...........................................
+[CV] ................... pca__n_components=92, score=0.606452 - 1.9min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  1.9min remaining:   -5.1s
+[CV] pca__n_components=361 ...........................................
+[CV] ................... pca__n_components=92, score=0.636943 - 1.9min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  1.9min remaining:   -5.1s
+[CV] pca__n_components=513 ...........................................
+[CV] ................... pca__n_components=20, score=0.923567 - 1.9min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  1.9min remaining:   -5.3s
+[CV] pca__n_components=513 ...........................................
+[CV] .................... pca__n_components=4, score=0.967742 - 1.9min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  1.9min remaining:   -5.3s
+[CV] pca__n_components=513 ...........................................
+[CV] .................... pca__n_components=4, score=0.974359 - 1.9min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  2.0min remaining:   -5.3s
+[CV] pca__n_components=485577 ........................................
+[CV] .................. pca__n_components=255, score=0.617834 - 1.9min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  2.0min remaining:   -5.3s
+[CV] pca__n_components=485577 ........................................
+[CV] ................... pca__n_components=20, score=0.948387 - 1.9min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  2.0min remaining:   -5.4s
+[CV] pca__n_components=485577 ........................................
+[CV] .................. pca__n_components=255, score=0.541935 - 2.0min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  2.0min remaining:   -5.4s
+[CV] .................. pca__n_components=255, score=0.628205 - 2.0min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  2.0min remaining:   -5.5s
+[CV] ................... pca__n_components=92, score=0.660256 - 2.1min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  2.1min remaining:   -5.6s
+[CV] ............... pca__n_components=485577, score=0.309677 - 1.0min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  3.0min remaining:   -8.2s
+[CV] .................. pca__n_components=361, score=0.314103 - 1.5min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  3.3min remaining:   -9.0s
+[CV] .................. pca__n_components=513, score=0.312102 - 1.4min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  3.3min remaining:   -9.0s
+[CV] ............... pca__n_components=485577, score=0.314103 - 1.4min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  3.3min remaining:   -9.1s
+[CV] .................. pca__n_components=361, score=0.312102 - 1.5min
+[CV] ............... pca__n_components=485577, score=0.312102 - 1.4min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  3.3min remaining:   -9.1s
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  3.3min remaining:   -9.1s
+[CV] .................. pca__n_components=513, score=0.314103 - 1.4min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  3.4min remaining:   -9.2s
+[CV] .................. pca__n_components=361, score=0.309677 - 1.5min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  3.4min remaining:   -9.2s
+[CV] .................. pca__n_components=513, score=0.309677 - 1.5min
+[Parallel(n_jobs=12)]: Done  22 out of  21 | elapsed:  3.4min remaining:   -9.3s
+[Parallel(n_jobs=12)]: Done  21 out of  21 | elapsed:  3.4min finished
+0.968152866242
+0.967948717949
+Pipeline(steps=[('pca', PCA(copy=True, n_components=4, whiten=False)), ('scaled', StandardScaler(copy=True, with_mean=True, with_std=True)), ('gbayes', GaussianNB())])
+{'pca__n_components': 4}
+Script end at  2015-12-21T04:20:31.152592
+
+
+
+
+
+
